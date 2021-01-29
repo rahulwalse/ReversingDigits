@@ -139,7 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CountDigits.cpp" />
+    <ClCompile Include="MergeDigits.cpp" />
+    <ClCompile Include="ReverseDigits.cpp" />
     <ClCompile Include="ReversingDigits.cpp" />
+    <ClCompile Include="SumDigits.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Digitf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
